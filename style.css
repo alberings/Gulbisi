@@ -374,4 +374,32 @@ nav a:hover {
     gap: 12px;
     text-align: center;
   }
+}
+
+.wave-divider {
+  line-height: 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 80px;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.wave-divider.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.wave-divider.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+section {
+  position: relative;
+  z-index: 1;
 } 

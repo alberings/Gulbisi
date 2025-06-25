@@ -1,95 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>QuickLand Services</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenScape Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="container">
-      <h1>QuickLand Outdoor & Transport Services</h1>
-      <p>We provide fast, reliable lawn care, land work, and vehicle transport.</p>
-      <form class="quote-form">
-        <input type="text" placeholder="Your name" />
-        <input type="tel" placeholder="Phone number" />
-        <button type="submit">Get a Quote</button>
-      </form>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-flex">
+      <div class="logo">GreenScape</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <!-- Services -->
-  <section class="services">
-    <h2>Popular Services</h2>
-    <div class="cards">
-      <div class="card">Grass Cutting</div>
-      <div class="card">Trimming</div>
-      <div class="card">Digging</div>
-      <div class="card">Land Leveling</div>
-      <div class="card">Car Transport</div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Professional Outdoor & Transport Services</h1>
+        <p>Trimming, Grass Cutting, Digging, Leveling, Car Transportation</p>
+        <a href="#contact" class="cta-btn">Get a Free Quote</a>
+      </div>
+      <div class="hero-img">
+        <div class="img-placeholder">Hero Image</div>
+      </div>
     </div>
   </section>
 
-  <!-- How We Work -->
-  <section class="workflow">
-    <h2>How We Work</h2>
-    <div class="steps">
-      <div class="step">Submit Request</div>
-      <div class="step">We Contact You</div>
-      <div class="step">Service Scheduled</div>
-      <div class="step">Job Completed</div>
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Popular Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="img-placeholder">Trimming</div>
+          <h3>Trimming</h3>
+          <p>Expert trimming for hedges, bushes, and trees to keep your landscape neat.</p>
+        </div>
+        <div class="service-card">
+          <div class="img-placeholder">Grass Cutting</div>
+          <h3>Grass Cutting</h3>
+          <p>Professional grass cutting for lawns of all sizes, ensuring a perfect finish.</p>
+        </div>
+        <div class="service-card">
+          <div class="img-placeholder">Digging</div>
+          <h3>Digging</h3>
+          <p>Efficient digging services for gardens, landscaping, and construction prep.</p>
+        </div>
+        <div class="service-card">
+          <div class="img-placeholder">Leveling Ground</div>
+          <h3>Leveling Ground</h3>
+          <p>Ground leveling for gardens, yards, and construction sites.</p>
+        </div>
+        <div class="service-card">
+          <div class="img-placeholder">Car Transportation</div>
+          <h3>Car Transportation</h3>
+          <p>Safe and reliable car transportation services for all vehicle types.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <!-- Equipment -->
+  <!-- How We Work Section -->
+  <section class="process">
+    <div class="container">
+      <h2>How We Work</h2>
+      <div class="process-steps">
+        <div class="step">
+          <div class="icon-placeholder">1</div>
+          <p>Request a Service</p>
+        </div>
+        <div class="step">
+          <div class="icon-placeholder">2</div>
+          <p>Consultation & Quote</p>
+        </div>
+        <div class="step">
+          <div class="icon-placeholder">3</div>
+          <p>Service Execution</p>
+        </div>
+        <div class="step">
+          <div class="icon-placeholder">4</div>
+          <p>Customer Satisfaction</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipment Section -->
   <section class="equipment">
-    <h2>Equipment We Use</h2>
-    <p>We use professional-grade tools and vehicles for efficient and safe service delivery.</p>
-    <ul>
-      <li>Ride-on Lawn Mowers</li>
-      <li>Brush Cutters</li>
-      <li>Excavators</li>
-      <li>Land Graders</li>
-      <li>Flatbed Car Transporters</li>
-    </ul>
+    <div class="container">
+      <h2>Our Equipment</h2>
+      <div class="equipment-grid">
+        <div class="img-placeholder">Trimmer</div>
+        <div class="img-placeholder">Lawn Mower</div>
+        <div class="img-placeholder">Excavator</div>
+        <div class="img-placeholder">Leveling Tool</div>
+        <div class="img-placeholder">Car Transporter</div>
+      </div>
+    </div>
   </section>
 
-  <!-- Why Choose Us -->
-  <section class="why-us">
-    <h2>Why Choose QuickLand?</h2>
-    <ul>
-      <li>Experienced team with modern equipment</li>
-      <li>Affordable pricing and fast service</li>
-      <li>Fully insured and professional</li>
-      <li>Easy online booking</li>
-    </ul>
+  <!-- Why Choose Us Section -->
+  <section class="why-us" id="about">
+    <div class="container why-flex">
+      <div class="why-text">
+        <h2>Why Choose GreenScape?</h2>
+        <ul>
+          <li>Certified and experienced professionals</li>
+          <li>Modern, eco-friendly equipment</li>
+          <li>Reliable and punctual service</li>
+          <li>Customer satisfaction guaranteed</li>
+        </ul>
+      </div>
+      <div class="why-img">
+        <div class="img-placeholder">Team Image</div>
+      </div>
+    </div>
   </section>
 
-  <!-- FAQ -->
-  <section class="faq">
-    <h2>Frequently Asked Questions</h2>
-    <details>
-      <summary>Do you offer same-day service?</summary>
-      <p>Yes, in most areas depending on availability.</p>
-    </details>
-    <details>
-      <summary>What is the cost of lawn mowing?</summary>
-      <p>Prices start from $20 depending on size and terrain.</p>
-    </details>
-    <details>
-      <summary>Can you transport large vehicles?</summary>
-      <p>Yes, we handle a wide range of vehicle sizes.</p>
-    </details>
+  <!-- FAQ Section -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">What areas do you serve?</button>
+          <div class="faq-answer">We serve all major regions in your city and surrounding areas.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How do I request a quote?</button>
+          <div class="faq-answer">Simply fill out our contact form or call us directly for a free quote.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Are your services insured?</button>
+          <div class="faq-answer">Yes, all our services are fully insured for your peace of mind.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What payment methods do you accept?</button>
+          <div class="faq-answer">We accept cash, credit/debit cards, and online payments.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container contact-flex">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="text" placeholder="Service Needed" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-img">
+        <div class="img-placeholder">Contact Image</div>
+      </div>
+    </div>
   </section>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 QuickLand Services</p>
-    <p>Contact us: info@quickland.com | +123-456-7890</p>
+  <footer class="footer">
+    <div class="container footer-flex">
+      <div class="footer-logo">GreenScape</div>
+      <div class="footer-info">
+        <p>&copy; 2024 GreenScape. All rights reserved.</p>
+        <p>Follow us:
+          <a href="#">Facebook</a> |
+          <a href="#">Instagram</a> |
+          <a href="#">Twitter</a>
+        </p>
+      </div>
+    </div>
   </footer>
 
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(btn => {
+      btn.addEventListener('click', function() {
+        this.classList.toggle('active');
+        const answer = this.nextElementSibling;
+        if (answer.style.display === 'block') {
+          answer.style.display = 'none';
+        } else {
+          answer.style.display = 'block';
+        }
+      });
+    });
+  </script>
 </body>
-</html>
+</html> 

@@ -12,7 +12,12 @@
   <header class="header">
     <div class="container header-flex">
       <div class="logo">GreenScape</div>
-      <nav>
+      <nav id="main-nav">
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#services">Services</a></li>
@@ -283,6 +288,18 @@
         } else {
           answer.style.display = 'block';
         }
+      });
+    });
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const nav = document.getElementById('main-nav');
+    navToggle.addEventListener('click', function() {
+      nav.classList.toggle('open');
+    });
+    // Close nav on link click (mobile)
+    nav.querySelectorAll('ul li a').forEach(link => {
+      link.addEventListener('click', function() {
+        nav.classList.remove('open');
       });
     });
   </script>
